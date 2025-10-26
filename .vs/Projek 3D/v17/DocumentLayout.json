@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|c:\\users\\farha\\onedrive\\dokumen\\smt 4\\projek 3d\\assets\\scripts\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|c:\\users\\farha\\onedrive\\dokumen\\smt 4\\projek 3d\\assets\\scripts\\lockeddoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lockeddoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\assets\\scripts\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\assets\\scripts\\cctv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cctv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\assets\\scripts\\script useless\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\script useless\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\assets\\scripts\\script useless\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{879136D9-BF94-0373-41A3-CBB8393EDDE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\script useless\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LockedDoor.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\LockedDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LockedDoor.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\LockedDoor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LockedDoor.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T03:12:49.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KeyItem.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\KeyItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyItem.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\KeyItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T03:12:17.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IInteractable.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\IInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IInteractable.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\IInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IInteractable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T03:11:22.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObjectiveItem.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\ObjectiveItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveItem.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\ObjectiveItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectiveItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T02:54:46.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerInteract.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\PlayerInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteract.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\PlayerInteract.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInteract.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T02:53:30.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CCTV.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\CCTV.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CCTV.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\CCTV.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CCTV.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:21:09.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAkwIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T08:51:04.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T16:37:44.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\Script Useless\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Script Useless\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\Script Useless\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Script Useless\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T01:28:57.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\Script Useless\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Script Useless\\GameManager.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\Script Useless\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Script Useless\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T00:17:56.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CharacterMove.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\CharacterMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMove.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek 3D\\Assets\\Scripts\\CharacterMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterMove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T07:59:00.087Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
