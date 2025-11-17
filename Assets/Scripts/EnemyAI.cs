@@ -3,45 +3,31 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    // ... (Semua variabel dan fungsi Start, Update, dll. biarkan sama) ...
-    // ... (Tidak perlu mengubah bagian atas skrip) ...
 
-    // Fungsi inilah yang kita perbaiki
+    public float captureDistance = 1.5f;
+
     public void InvestigateLocation(Vector3 location)
     {
-        // Baris 'if (currentState == EnemyState.Chasing) return;' SUDAH DIHAPUS.
-        // Sekarang, bodyguard bisa beralih dari Chasing ke Investigating.
-
         currentState = EnemyState.Investigating;
         investigationSpot = location;
         agent.SetDestination(investigationSpot);
-        Debug.Log("Kehilangan jejak, menginvestigasi lokasi terakhir!"); // Tambahan untuk debugging
+        Debug.Log("Kehilangan jejak, menginvestigasi lokasi terakhir!");
     }
 
-    // ... (Sisa skrip di bawah ini juga tidak perlu diubah) ...
-    // ... (GoToNextPatrolPoint, CheckFieldOfView, Gizmos, dll. biarkan sama) ...
+    public float guardHearingRange = 10f;
 
-
-    // =====================================================================
-    // KODE LENGKAP UNTUK REFERENSI (salin semua jika bingung)
-    // =====================================================================
-
-    // Komponen & Target
     public NavMeshAgent agent;
     public Transform player;
 
-    // Pengaturan Patroli
     public Transform[] patrolPoints;
     private int currentPatrolIndex = 0;
 
-    // Pengaturan Field of View (FOV)
     public float viewRadius = 10f;
     [Range(0, 360)]
     public float viewAngle = 90f;
     public LayerMask playerMask;
     public LayerMask obstacleMask;
 
-    // State Machine
     public enum EnemyState { Patrolling, Chasing, Investigating }
     public EnemyState currentState;
 
@@ -50,11 +36,29 @@ public class EnemyAI : MonoBehaviour
     private void OnEnable()
     {
         CCTV.OnPlayerSpotted += InvestigateLocation;
+        CharacterMove.OnNoiseMade += OnNoiseHeard;
     }
 
     private void OnDisable()
     {
         CCTV.OnPlayerSpotted -= InvestigateLocation;
+        CharacterMove.OnNoiseMade -= OnNoiseHeard;
+    }
+
+    public void OnNoiseHeard(Vector3 noiseLocation, float noiseRadius)
+    {
+        float distanceToNoise = Vector3.Distance(transform.position, noiseLocation);
+
+        if (distanceToNoise <= guardHearingRange)
+        {
+            if (currentState == EnemyState.Chasing)
+            {
+                return;
+            }
+
+            InvestigateLocation(noiseLocation);
+            Debug.Log("Mendengar suara! Menginvestigasi lokasi : " + noiseLocation);
+        }
     }
 
     void Start()
@@ -66,6 +70,21 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
+        
+        if (!GameManager.IsGameActive)
+        {
+            if (agent.enabled && agent.isStopped == false)
+            {
+                agent.isStopped = true;
+            }
+            return;
+        }
+
+        if (agent.enabled && agent.isStopped == true && GameManager.IsGameActive)
+        {
+            agent.isStopped = false;
+        }
+
         bool canSeePlayer = CheckFieldOfView();
 
         switch (currentState)
@@ -83,6 +102,14 @@ public class EnemyAI : MonoBehaviour
                 else
                 {
                     agent.SetDestination(player.position);
+
+                    if (Vector3.Distance(transform.position, player.position) < captureDistance)
+                    {
+                        GameManager.Instance.EndGame(false);
+                        currentState = EnemyState.Investigating;
+                        agent.isStopped = true;
+                        Debug.Log("Player Tertangkap");
+                    }
                 }
                 break;
 
@@ -137,4 +164,5 @@ public class EnemyAI : MonoBehaviour
         if (!angleIsGlobal) { angleInDegrees += transform.eulerAngles.y; }
         return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
     }
+
 }
