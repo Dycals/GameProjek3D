@@ -1,7 +1,6 @@
 using UnityEngine;
 using System;
 
-// Perhatikan tambahan ", IInteractable" di sini
 public class ObjectiveItem : MonoBehaviour, IInteractable
 {
     public string objectiveName = "Objektif Baru";

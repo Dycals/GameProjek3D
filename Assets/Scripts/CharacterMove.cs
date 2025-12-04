@@ -47,15 +47,11 @@ public class CharacterMove : MonoBehaviour
             return;
         }
 
-        float horizontal = Input.GetAxis("Horizontal"); // A/D → belok
-        float vertical = Input.GetAxis("Vertical");     // W/S → maju/mundur
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
 
-        // === LOGIKA UNTUK LARI ===
-        // Cek apakah tombol LeftShift ditekan DAN karakter sedang bergerak maju.
-        // Biasanya, karakter tidak bisa lari saat mundur.
         bool isRunning = Input.GetKey(KeyCode.LeftShift) && vertical > 0;
 
-        // Tentukan kecepatan yang digunakan: lari atau jalan.
         currentSpeed = isRunning ? runSpeed : walkSpeed;
 
         if (Mathf.Abs(horizontal) > rotationDeadZone)
@@ -83,22 +79,16 @@ public class CharacterMove : MonoBehaviour
             }
         }
 
-        // === UPDATE ANIMATOR ===
-        // Atur nilai parameter "Speed" di Animator.
-        // Nilai ini akan kita gunakan untuk transisi animasi Idle-Walk-Run.
         float animationSpeedValue = 0f;
 
-        if (vertical > 0) // Bergerak maju
+        if (vertical > 0)
         {
-            // Jika isRunning true, nilainya 2. Jika false, nilainya 1.
             animationSpeedValue = isRunning ? 2f : 1f;
         }
-        else if (vertical < 0) // Bergerak mundur
+        else if (vertical < 0)
         {
-            // Saat mundur, selalu pakai animasi jalan (nilai 1).
             animationSpeedValue = 1f;
         }
-        // Jika vertical == 0, nilainya tetap 0 (Idle).
 
         animator.SetFloat("Speed", animationSpeedValue);
     }

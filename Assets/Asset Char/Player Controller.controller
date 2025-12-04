@@ -72,7 +72,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: dccc6b8f103ca44439de78b05413c8f2, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 1b17f58ff9da3f04d966e51fd2401448, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -167,7 +167,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Fast Run
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -8958640071314777147}
@@ -181,7 +181,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: aeb09f5215c6bc44f9bbf4a83a54183f, type: 3}
+  m_Motion: {fileID: 8629485196805987531, guid: 1b17f58ff9da3f04d966e51fd2401448, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -245,7 +245,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Crouched Walking
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 4354829152951919501}
@@ -259,7 +259,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 435efed631fb51847a7a980aa043da3b, type: 3}
+  m_Motion: {fileID: 2496783078377844142, guid: 1b17f58ff9da3f04d966e51fd2401448, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

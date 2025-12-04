@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class CCTV : MonoBehaviour
 {
-    // Event 'Broadcast' yang akan didengarkan oleh para bodyguard
     public static event Action<Vector3> OnPlayerSpotted;
 
-    // Pengaturan Rotasi
-    public Vector3[] rotationAngles; // Array sudut rotasi yang diinginkan (Euler Angles)
+    public Vector3[] rotationAngles;
     public float rotationSpeed = 20f;
-    public float pauseDuration = 2f; // Jeda di setiap titik rotasi
+    public float pauseDuration = 2f;
 
-    // Pengaturan Field of View (FOV)
     public Transform player;
     public float viewRadius = 15f;
     [Range(0, 360)]
@@ -22,12 +19,11 @@ public class CCTV : MonoBehaviour
 
     private Quaternion[] targetRotations;
     private int currentRotationIndex = 0;
-    private float alertCooldown = 2f; // Cooldown agar tidak spam alert
+    private float alertCooldown = 2f;
     private float lastAlertTime;
 
     void Start()
     {
-        // Konversi Euler Angles dari Inspector menjadi Quaternion untuk rotasi
         targetRotations = new Quaternion[rotationAngles.Length];
         for (int i = 0; i < rotationAngles.Length; i++)
         {
@@ -41,13 +37,11 @@ public class CCTV : MonoBehaviour
     {
         if (CheckFieldOfView())
         {
-            // Jika player terlihat dan cooldown sudah selesai
             if (Time.time > lastAlertTime + alertCooldown)
             {
                 lastAlertTime = Time.time;
                 Debug.Log("CCTV: Player Spotted!");
 
-                // Broadcast event ke semua bodyguard yang mendengarkan
                 OnPlayerSpotted?.Invoke(player.position);
             }
         }
@@ -55,23 +49,20 @@ public class CCTV : MonoBehaviour
 
     IEnumerator RotateCCTV()
     {
-        while (true) // Loop selamanya
+        while (true)
         {
             Quaternion target = targetRotations[currentRotationIndex];
 
-            // Berputar menuju target rotasi
             while (Quaternion.Angle(transform.rotation, target) > 0.1f)
             {
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, target, rotationSpeed * Time.deltaTime);
-                yield return null; // Tunggu frame berikutnya
+                yield return null;
             }
 
-            transform.rotation = target; // Pastikan rotasi pas
+            transform.rotation = target;
 
-            // Jeda sejenak
             yield return new WaitForSeconds(pauseDuration);
 
-            // Pindah ke target rotasi berikutnya
             currentRotationIndex = (currentRotationIndex + 1) % targetRotations.Length;
         }
     }
@@ -90,14 +81,13 @@ public class CCTV : MonoBehaviour
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
                 if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstacleMask))
                 {
-                    return true; // Player terlihat!
+                    return true;
                 }
             }
         }
-        return false; // Player tidak terlihat
+        return false;
     }
 
-    // (Opsional) Visualisasi FOV di Scene Editor
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;

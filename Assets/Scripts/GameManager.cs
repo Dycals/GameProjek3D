@@ -22,6 +22,15 @@ public class GameManager : MonoBehaviour
 
     private bool isGameOver = false;
 
+    public GameObject gameOverPanel;
+    public GameObject winPanel;
+
+    void Start()
+    {
+        gameOverPanel.SetActive(false);
+        winPanel.SetActive(false);
+    }
+
     private void Awake()
     {
         if (Instance == null)
@@ -53,17 +62,38 @@ public class GameManager : MonoBehaviour
         if (!IsGameActive) return;
         IsGameActive = false;
 
+        Time.timeScale = 0f;
+
         if (won)
         {
             Debug.Log("Selamat! Anda telah menang.");
-            Invoke("LoadNextScene", 3f);
+            winPanel.SetActive(true);
+            //Invoke("LoadNextScene", 3f);
         }
         else
         {
             Debug.Log("Game Over. Tertangkap!");
-
-            Invoke("RestartLevel", 3f);
+            gameOverPanel.SetActive(true);
+            //Invoke("RestartLevel", 3f);
         }
+    }
+
+    public void RestartLevelButton()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void LoadNextLevelButton()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(nextLevelSceneName);
+    }
+
+    public void LoadMainMenuButton()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
     }
 
     private void OnObjectiveCollected(string objectiveName)
@@ -77,21 +107,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void RestartLevel()
-    {
-        SceneManager.LoadScene(currentLevelSceneName);
-    }
+    //private void RestartLevel()
+    //{
+    //    SceneManager.LoadScene(currentLevelSceneName);
+    //}
 
-    private void LoadNextScene()
-    {
-        SceneManager.LoadScene(nextLevelSceneName);
-    }
+    //private void LoadNextScene()
+    //{
+    //    SceneManager.LoadScene(nextLevelSceneName);
+    //}
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()
