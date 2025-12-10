@@ -20,6 +20,8 @@ public class DecisionSceneManager : MonoBehaviour
     public int sellReputationChange = -15;
     public int courtReputationChange = 10;
 
+    public float sceneLoadDelay = 2.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +32,7 @@ public class DecisionSceneManager : MonoBehaviour
         }
 
         titleText.text = "Bukti Ditemukan!";
-        descriptionText.text = "Anda memiliki bukti yang dapat dijual **(uang)** atau diserahkan ke pengadilan **(reputasi)**. Apa pilihan anda?";
+        descriptionText.text = "Anda memiliki bukti yang dapat dijual (+Uang) atau diserahkan ke pengadilan (+Reputasi). Apa pilihan anda?";
 
         GiveBaseReward();
 
@@ -52,16 +54,27 @@ public class DecisionSceneManager : MonoBehaviour
         if (ReputationManager.Instance == null) return;
 
         ReputationManager.Instance.AdjustReputation(reputationChange);
-
         if (moneyBonus > 0)
         {
             ReputationManager.Instance.AdjustMoney(moneyBonus);
         }
 
-        string outcome = (reputationChange > 0) ? "Keputusan yang bermoral." : "Keputusan yang korup: Uang tambahan didapat.";
+        string outcome = (reputationChange > 0) ? "Keputusan yang bermoral: Reputasi naik." : "Keputusan yang korup: Uang tambahan didapat.";
         Debug.Log(outcome);
 
-        SceneManager.LoadScene(nextLevelSceneName);
+        StartCoroutine(LoadNextSceneAfterDelay(nextLevelSceneName));
+
+        sellButton.interactable = false;
+        courtButton.interactable = false;
+    }
+
+    IEnumerator LoadNextSceneAfterDelay(string sceneName)
+    {
+        Time.timeScale = 1f;
+
+        yield return new WaitForSeconds(sceneLoadDelay);
+
+        SceneManager.LoadScene(sceneName);
     }
 
     // Update is called once per frame

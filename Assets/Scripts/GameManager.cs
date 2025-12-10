@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverPanel;
     public GameObject winPanel;
 
+    public float gameOverDelay = 1f;
+    public float sceneSwitchDelay = 1f;
+
     void Start()
     {
         gameOverPanel.SetActive(false);
@@ -56,11 +59,23 @@ public class GameManager : MonoBehaviour
 
     public void EndGame (bool won)
     {
-        if (isGameOver) return;
-        isGameOver = true;
+        //if (isGameOver) return;
+        //isGameOver = true;
 
-        if (!IsGameActive) return;
+        //if (!IsGameActive) return;
+        //IsGameActive = false;
+
+        if (isGameOver || !IsGameActive) return;
+
+        isGameOver = true;
         IsGameActive = false;
+
+        StartCoroutine(ProcessGameOver(won));
+    }
+
+    IEnumerator ProcessGameOver(bool won)
+    {
+        yield return new WaitForSeconds(gameOverDelay);
 
         Time.timeScale = 0f;
 
@@ -68,32 +83,40 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Selamat! Anda telah menang.");
             winPanel.SetActive(true);
-            //Invoke("LoadNextScene", 3f);
         }
         else
         {
             Debug.Log("Game Over. Tertangkap!");
             gameOverPanel.SetActive(true);
-            //Invoke("RestartLevel", 3f);
         }
     }
 
     public void RestartLevelButton()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        StartCoroutine(LoadSceneAfterDelay(currentSceneName));
     }
 
     public void LoadNextLevelButton()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(nextLevelSceneName);
+        StartCoroutine(LoadSceneAfterDelay(nextLevelSceneName));
     }
 
     public void LoadMainMenuButton()
     {
+        StartCoroutine(LoadSceneAfterDelay("MainMenu"));
+    }
+
+    IEnumerator LoadSceneAfterDelay(string sceneName)
+    {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
+
+        IsGameActive = true;
+        Instance.isGameOver = false;
+
+        yield return new WaitForSeconds(sceneSwitchDelay);
+
+        SceneManager.LoadScene(sceneName);
     }
 
     private void OnObjectiveCollected(string objectiveName)
@@ -107,20 +130,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //private void RestartLevel()
-    //{
-    //    SceneManager.LoadScene(currentLevelSceneName);
-    //}
-
-    //private void LoadNextScene()
-    //{
-    //    SceneManager.LoadScene(nextLevelSceneName);
-    //}
-
-    // Start is called before the first frame update
-    
-
-    // Update is called once per frame
     void Update()
     {
         
