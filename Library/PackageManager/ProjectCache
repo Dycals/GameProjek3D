@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638962872900591200
-    m_Hash: 4116721795
+      ticks: 639014941053047497
+    m_Hash: 592020141
   m_LockFileStatus:
     m_FilePath: C:/Users/farha/OneDrive/Dokumen/Smt 4/Projek3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638962872900696077
-    m_Hash: 2750689946
+      ticks: 639014941053168309
+    m_Hash: 4282831967
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,65 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/farha/OneDrive/Dokumen/Smt 4/Projek3D/Packages
 m_EditorVersion: 2022.3.62f1 (4af31df58517)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\farha\OneDrive\Dokumen\Smt 4\Projek3D\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ai.navigation@1.1.7
   testable: 0
   isDirectDependency: 1
@@ -416,6 +475,8 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
+    - 2.10.2
     compatible:
     - 2.7.1
     - 2.8.1
@@ -424,6 +485,8 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
+    - 2.10.2
     recommended: 2.7.1
     deprecated: []
   dependencies: []
@@ -878,6 +941,7 @@ m_ResolvedPackages:
     - 1.8.7
     - 1.8.8
     - 1.8.9
+    - 1.8.10
     compatible:
     - 1.7.7
     - 1.8.0
@@ -890,6 +954,7 @@ m_ResolvedPackages:
     - 1.8.7
     - 1.8.8
     - 1.8.9
+    - 1.8.10
     recommended: 1.7.7
     deprecated: []
   dependencies:
@@ -3109,11 +3174,13 @@ m_ResolvedPackages:
     - 2.0.22
     - 2.0.23
     - 2.0.25
+    - 2.0.26
     compatible:
     - 2.0.22
     - 2.0.23
     - 2.0.25
-    recommended: 2.0.25
+    - 2.0.26
+    recommended: 2.0.26
     deprecated: []
   dependencies:
   - name: com.unity.test-framework

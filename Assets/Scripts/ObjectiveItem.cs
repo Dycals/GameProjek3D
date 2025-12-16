@@ -3,9 +3,11 @@ using System;
 
 public class ObjectiveItem : MonoBehaviour, IInteractable
 {
-    public string objectiveName = "Objektif Baru";
+    //public string objectiveName = "Objektif Baru";
 
     public static event Action<string> OnObjectiveCollected;
+
+    public string objectiveName = "Kunci Gudang";
 
     public void Interact(PlayerInteract player)
     {

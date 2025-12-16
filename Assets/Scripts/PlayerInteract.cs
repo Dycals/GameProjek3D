@@ -1,4 +1,4 @@
-using System.Collections.Generic; // Dibutuhkan untuk "Key Ring"
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
@@ -13,6 +13,23 @@ public class PlayerInteract : MonoBehaviour
         {
             currentInteractable.Interact(this);
             currentInteractable = null;
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            InteractAction();
+        }
+    }
+
+    public void InteractAction()
+    {
+        if (currentInteractable != null)
+        {
+            currentInteractable.Interact(this);
+        }
+        else
+        {
+            Debug.Log("Tidak ada objek untuk diinteraksi!");
         }
     }
 

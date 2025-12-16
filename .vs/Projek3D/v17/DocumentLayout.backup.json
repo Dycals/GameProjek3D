@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|c:\\users\\farha\\onedrive\\dokumen\\smt 4\\projek3d\\assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\finalvideoending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\finalvideoending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\reputationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\reputationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\objectiveuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectiveuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\decisionscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\decisionscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\objectiveglow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectiveglow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\rotatingmarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotatingmarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\virtualjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\virtualjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\lockeddoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lockeddoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,32 +63,12 @@
       "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|c:\\users\\farha\\onedrive\\dokumen\\smt 4\\projek3d\\assets\\scripts\\decisionscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\decisionscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|c:\\users\\farha\\onedrive\\dokumen\\smt 4\\projek3d\\assets\\scripts\\uisoundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\uisoundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uisoundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\rotatingmarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotatingmarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\objectiveglow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectiveglow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,24 +79,8 @@
       "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cctv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\exitdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exitdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\reputationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\reputationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAF83CF8-2C8F-0F56-C4C2-8D9913295741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,11 +90,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "FinalVideoEnding.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\FinalVideoEnding.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FinalVideoEnding.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\FinalVideoEnding.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FinalVideoEnding.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T14:08:56.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObjectiveUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\ObjectiveUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveUIManager.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\ObjectiveUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectiveUIManager.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAowFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T13:17:04.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VirtualJoystick.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\VirtualJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VirtualJoystick.cs",
+              "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\VirtualJoystick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VirtualJoystick.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T00:38:21.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "UISoundManager.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\UISoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UISoundManager.cs",
@@ -90,12 +138,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UISoundManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T11:11:30.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T11:11:30.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RotatingMarker.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\RotatingMarker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RotatingMarker.cs",
@@ -119,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "MainMenuManager.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\MainMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuManager.cs",
@@ -131,32 +178,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DecisionSceneManager.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\DecisionSceneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DecisionSceneManager.cs",
               "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\DecisionSceneManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\DecisionSceneManager.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAIBJwEgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T13:24:43.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T13:24:43.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "ReputationManager.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\ReputationManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ReputationManager.cs",
               "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\ReputationManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ReputationManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T13:14:46.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "ExitDoor.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\ExitDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExitDoor.cs",
@@ -168,44 +214,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T13:29:06.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T13:29:06.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "PlayerInteract.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\PlayerInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteract.cs",
               "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\PlayerInteract.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerInteract.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowC0AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T13:23:44.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "ObjectiveItem.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\ObjectiveItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveItem.cs",
               "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\ObjectiveItem.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectiveItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T12:51:42.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "LockedDoor.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\LockedDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LockedDoor.cs",
@@ -213,12 +258,11 @@
               "RelativeToolTip": "Assets\\Scripts\\LockedDoor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T12:51:31.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T12:51:31.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "KeyItem.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\KeyItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyItem.cs",
@@ -226,12 +270,11 @@
               "RelativeToolTip": "Assets\\Scripts\\KeyItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T12:51:18.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T12:51:18.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "IInteractable.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\IInteractable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IInteractable.cs",
@@ -239,12 +282,11 @@
               "RelativeToolTip": "Assets\\Scripts\\IInteractable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T12:51:01.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T12:51:01.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "CCTV.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\CCTV.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CCTV.cs",
@@ -256,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
@@ -268,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
@@ -280,15 +322,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "CharacterMove.cs",
               "DocumentMoniker": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\CharacterMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMove.cs",
               "ToolTip": "C:\\Users\\farha\\OneDrive\\Dokumen\\Smt 4\\Projek3D\\Assets\\Scripts\\CharacterMove.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterMove.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAIwFoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAowK0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:53:10.478Z"
+              "WhenOpened": "2025-10-29T07:53:10.478Z",
+              "EditorCaption": ""
             }
           ]
         }

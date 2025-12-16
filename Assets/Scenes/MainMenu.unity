@@ -775,7 +775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bcd69905d75ef4b9e008c82e1f5a7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevelSceneName: Level1
+  firstLevelSceneName: Prologue
 --- !u!114 &549625833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -788,6 +788,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ff5a4cd6acb7e459d2d78ccbc1136f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  reputationScore: 0
+  playerMoney: 0
   moneyText: {fileID: 0}
   reputationText: {fileID: 0}
 --- !u!4 &549625834

@@ -1,4 +1,4 @@
-using System; // Diperlukan untuk Action
+using System;
 using System.Collections;
 using UnityEngine;
 

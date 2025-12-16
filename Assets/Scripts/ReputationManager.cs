@@ -11,8 +11,8 @@ public class ReputationManager : MonoBehaviour
     private const string REPUTATION_KEY = "PlayerReputation";
     private const string MONEY_KEY = "PlayerMoney";
 
-    private int reputationScore = 0;
-    private int playerMoney = 0;
+    public int reputationScore = 0;
+    public int playerMoney = 0;
 
     public TextMeshProUGUI moneyText;
     public TextMeshProUGUI reputationText;

@@ -3,7 +3,11 @@ guid: 2346432183908c0498a3dac560c7c3a9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - joystick: {instanceID: 0}
+  - footstepSource: {instanceID: 0}
+  - walkClip: {fileID: 8300000, guid: 26052ddff2b325944bfb219dacb1632e, type: 3}
+  - runClip: {fileID: 8300000, guid: 26052ddff2b325944bfb219dacb1632e, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

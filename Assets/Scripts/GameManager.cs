@@ -24,9 +24,14 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameOverPanel;
     public GameObject winPanel;
+    public GameObject objectivePanelUI;
 
     public float gameOverDelay = 1f;
     public float sceneSwitchDelay = 1f;
+
+    [Header("Mobile Controls")]
+    public GameObject joystickUI; 
+    public GameObject interactButtonUI;
 
     void Start()
     {
@@ -78,6 +83,10 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(gameOverDelay);
 
         Time.timeScale = 0f;
+
+        if (joystickUI != null) joystickUI.SetActive(false);
+        if (interactButtonUI != null) interactButtonUI.SetActive(false);
+        if (objectivePanelUI != null) objectivePanelUI.SetActive(false);
 
         if (won)
         {
